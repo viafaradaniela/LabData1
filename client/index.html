@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s.css">
+    <title>Lab MetaData</title>
+</head>
+<body>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"
+    integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k"
+    crossorigin="anonymous"></script>
+
+    <h3>Form</h3>
+    <form id="form">
+      
+        <input type="text" name="text" id="Name" class="input" placeholder="Full Name">
+        <input type="email" id="Email" class="input" placeholder="Email">
+        <input type="number" id="Phone" class="input" placeholder="Phone">
+        <input type="date" id="DoB" class="input" placeholder="Date of Birth">
+        <label class="checkbox-btn">
+            <label for="checkbox"></label>
+            <input id="checkbox" type="checkbox">
+            I agree
+            <span class="checkmark"></span>
+        </label>
+    
+        <button type="submit" id="enviar" disabled>Send</button>
+    </form>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
